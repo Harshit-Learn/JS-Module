@@ -13,9 +13,9 @@
 // ***** let **********
 
 
-let a=10; // initialize
-let a=20; //Redeclare
-console.log(a); // Outputs: 20
+// let a=10; // initialize
+// let a=20; //Redeclare
+// console.log(a); // Outputs: 20
 
 
 // var a=10; // initialize
