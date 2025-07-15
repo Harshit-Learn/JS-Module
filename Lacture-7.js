@@ -34,5 +34,5 @@ const user = {                // object
     
 };
 
-const city = user?.address?.city?; // you can use only with address but for safe zone we use for all
+const city = user?.address?.city ; // you can use only with address but for safe zone we use for all
 console.log(city); // output: undefined
