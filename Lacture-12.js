@@ -80,13 +80,13 @@
 
 // 10 . splice() & slice()
 
-// const arr = [1,2,3,4];
-// const spli= arr.splice(1,2); // 
-// console.log(spli); // doubt
+const arr = [1,2,3,4];
+ arr.splice(1,2); // original array se
+console.log(arr); // 
 
-// const arr1 = [1,2,3,4];
-// const spli1= arr.slice(1,3); // 
-// console.log(spli1); // doubt
+const arr1 = [1,2,3,4];
+const spli1= arr1.slice(1,3); // 
+console.log(spli1); // doubt
 
 // 11. flat()
 
@@ -94,9 +94,9 @@
 // console.log(arr.flat()); // [1, 2, [3]]
 // console.log(arr.flat(2)); // [1, 2, 3]
 
-const a= ["hello" , "boys"];
-const v = a.join('');
-console.log(v);
+// const a= ["hello" , "boys"];
+// const v = a.join('');
+// console.log(v);
 
 
 
