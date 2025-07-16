@@ -50,6 +50,6 @@
 const obj = { name: "harsh" , age: "25" , pin: 274302 };
 const { name , age , pin}=  obj ;
 
-console.log ( name , age  , pin );
+console.log ( name , age  , pin ); // harsh , 25 , 274302
 console.log(name);
 console.log(age);
