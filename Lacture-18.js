@@ -10,14 +10,14 @@
 
 // 1. Set (): unique valre collection ( Array)
 
-// const myset = new Set();
-// myset.add(1);
-// myset.add(2);
-// myset.add(3);
-// console.log(myset.has(1)) // true
-// console.log(myset.delete(3)) // Set(2) { 1, 2 }
-// console.log(myset) // Set(3) { 1, 2, 3 }
-// console.log(myset) // Set(3) { 1, 2, 3 }
+const myset = new Set();
+myset.add(1);
+myset.add(2);
+myset.add(3);
+console.log(myset.has(1)) // true
+console.log(myset.delete(3)) // Set(2) { 1, 2 }
+console.log(myset) // Set(3) { 1, 2, 3 }
+console.log(myset) // Set(3) { 1, 2, 3 }
 
 // ******************** Map(): Built-in object that hold key-value pair  where key can be any type not just string.
 
@@ -44,11 +44,11 @@ for (let [key, value] of myMap) {
 console.log("Map size:", myMap.size); // 4
 
 // output: Name: Harshit
-Age: 25
-Boolean true: yes
-Map entries:
-name => Harshit
-age => 25
-1 => one
-true => yes
-Map size: 4
+// Age: 25
+// Boolean true: yes
+// Map entries:
+// name => Harshit
+// age => 25
+// 1 => one
+// true => yes
+// Map size: 4
