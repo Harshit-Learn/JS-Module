@@ -99,4 +99,5 @@ console.log(spli1); // doubt
 // console.log(v);
 
 
-
+let a = 3;
+console.log(a);
